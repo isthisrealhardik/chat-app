@@ -3,18 +3,17 @@ import { initializeApp } from "firebase/app";
 import { getAuth } from 'firebase/auth';
 import { GoogleAuthProvider, signInWithPopup } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
-import { useState } from "react";
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyCI2mi0doZbN_LHcQ9ImFEujL1cQPgRRmQ",
-  authDomain: "two-chat-app-acf6d.firebaseapp.com",
-  projectId: "two-chat-app-acf6d",
-  storageBucket: "two-chat-app-acf6d.appspot.com",
-  messagingSenderId: "336209360846",
-  appId: "1:336209360846:web:b56ef1adf14dcaed571d9f"
+  apiKey: "AIzaSyDhkx_dWnPZjvn1v88CdaM0SwF5k58aEp8",
+  authDomain: "chat-app-6c9cf.firebaseapp.com",
+  projectId: "chat-app-6c9cf",
+  storageBucket: "chat-app-6c9cf.appspot.com",
+  messagingSenderId: "76827198467",
+  appId: "1:76827198467:web:dd2e9ae2f4e3f5944bba36"
 };
 
 // Initialize Firebase
