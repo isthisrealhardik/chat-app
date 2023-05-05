@@ -17,7 +17,7 @@ const App = () => {
   // console.log(user);
 
   return (
-    <div className="h-screen w-screen flex-col text-center justify-center items-center flex bg-primary">
+    <div className="h-full w-screen flex-col text-center justify-center items-center flex bg-primary">
       {user ? <Chat /> : <Login />}
     </div>
   )
